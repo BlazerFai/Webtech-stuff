@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="iium_logo.png" alt='iium' class="logo"> 
+        </div>
+        <div class="content">
+            <h1>RM 1 Campaign</h1>
+            <p>Let your contributions be perpetual for the pleasure of Allah SWT</p>
+            <p>The example of those who spend their wealth in the 
+                way of Allah is like a seed [of grain] which grows seven 
+                spikes; in each spike is a hundred grains. And Allah 
+                multiplies [His reward] for whom He wills. And Allah is 
+                all-Encompassing and Knowing.”
+                Al Baqarah:261</p>
+        <div>
+            <button type="button" id="campaignFormButton"><span></span>Campaign Form</button>
+        </div>
+        </div>
+    </div>
+    <div class="form">
+        <div class="desc">
+            <h1>Help our Ummah</h1>
+            <p>deduce RM1 from your salary to help our brother and sister</p>
+        <div class="contact">
+            <h1>Contact Us!</h1>
+            <p>IIUM ENDOWMENT FUND</p>
+            <p>Level 3, Rectory</p>
+            <p> International Islamic University Malaysia</p>
+            <p> P.O. Box 10</p>
+            <p> 50728 Kuala Lumpur</p>
+        <p>Tel: 03 6196 4268</p>
+        <p>Email: ief@iium.edu.my</p>
+        <p>Website: <a href="www.iium.edu.my/ief">www.iium.edu.my/ief</a></p>
+        <p>Facebook: <a href="www.facebook.com/ief.official/">www.facebook.com/ief.official/</a></p>
+        </div>
+        </div>
+        <div id="campaignform">
+            <h2>Campaign Form</h2>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="on" required>
+            
+            <label for="staffNo">Staff No.:</label>
+            <input type="text" id="staffNo" name="staffNo" required>
+    
+            <label for="kcdio">K/C/D/I/O:</label>
+            <input type="text" id="kcdio" name="kcdio" required>
+    
+            <label for="contactNo">Contact No.:</label>
+            <input type="tel" id="contactNo" name="contactNo" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="on" required>
+    
+            <label for="amount">Amount to be Deducted (RM):</label>
+            <input type="number" id="amount" name="amount" required>
+    
+            <label for="startDate">Deduction Start Date (Month/Year):</label>
+            <input type="month" id="startDate" name="startDate" required>
+    
+            <label for="endDate">Deduction End Date or Until Further Notice (Month/Year):</label>
+            <input type="month" id="endDate" name="endDate" required>
+    
+            <label for="kulliyyah">For Kulliyyah of:</label>
+            <input type="text" id="kulliyyah" name="kulliyyah" required>
+    
+            <p>The above salary deduction will take effect from <span id="startMonthYear"></span> until <span id="endMonthYearOrNotice"></span> or further notice.</p>
+            <button type="submit" id="submitFormButton">Submit</button>
+        </div>
+ 
+    </div>
+<footer>
+
+<p>All rights reserved to Faisal and help from youtube hehe </p>
+
+</footer>
+    <script src="scriptss.js"></script>
+</body>
+</html>

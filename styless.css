@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner {
+    width: 100;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+    , url(donation.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 400px;
+    height: auto; 
+  }
+
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:white;
+  }
+  .content h1{
+    font-size: 70px;
+    margin-top: 80px;
+  }
+  
+  .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid;
+    background:transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow:hidden;
+  }
+  span{
+    background: orange;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  button:hover span{
+    width: 100%;
+  }
+  button:hover{
+    border:none;
+  }
+  .form {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.32),rgba(0,0,0,0.32)),url(masjid.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.desc{
+    width: 100%;
+    position: top;
+    text-align: left;
+    color:white;
+  }
+  .desc h1{
+    font-size: 80px;
+    margin-top: 80px;
+  }
+  
+  .desc p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+  }
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px; 
+    margin-bottom: 5px; 
+}
+
+span[aria-label="required"] {
+    color: red; 
+}
+
+#campaignform h2{
+    text-align: center;
+}
+.form {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 150vh;
+}
+
+#campaignform {
+    max-width: 400px; 
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px;
+}
+
+#campaignform label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+#campaignform input,
+#campaignform select {
+    width: 100%; 
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#campaignform p {
+    margin-bottom: 16px;
+}
+
+#campaignform button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+#campaignform button:hover {
+    background-color: blue;
+}
+
+.contact {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    position:bottom;
+
+}
+
+.contact h1 {
+    font-size: 20px;
+}
+
+.contact p {
+    font-size: 14px;
+    line-height: 1.4px;
+}
+
+.contact a {
+    font-size: 14px;
+}
+
+footer{
+  background-color: skyblue;
+  font-size: large;
+  text-align: center
+  ;
+}
