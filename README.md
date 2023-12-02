@@ -11,8 +11,9 @@ the JavaScript Interaction I implement is pretty simple and straightforward .
 
 I use a lot of reference in making this simple website ( most of it are from slides, youtube and w3school ) 
 
-CSS Beginner - How To Align the Content of a Div to the Bottom (EASY) : https://www.youtube.com/watch?v=1PB6HTvO8X8&ab_channel=garnattione
-How To Make A Contact Form Using HTML And & CSS | Animated Label Contact Form Design: https://www.youtube.com/watch?v=524ycUqs3f0&t=268s&ab_channel=GreatStack
+CSS Beginner - How To Align the Content of a Div to the Bottom (EASY) : https://www.youtube.com/watchv=1PB6HTvO8X8&ab_channel=garnattione
+How To Make A Contact Form Using HTML And & CSS | Animated Label Contact Form Design: 
+https://www.youtube.com/watch?v=524ycUqs3f0&t=268s&ab_channel=GreatStack
 How To Make Website Using HTML And CSS | Website Design With HTML And CSS: https://youtu.be/PgAZ8KzfhO8?si=UNHLxz1h-lsmsAkl
 HTML autocomplete Attribute: https://www.w3schools.com/TAgs/att_autocomplete.asp
 Design Ideas : https://www.buylandingpagedesign.com/preview/charity-service-lead-caputure-resp-lp-004/4217
