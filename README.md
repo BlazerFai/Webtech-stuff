@@ -6,7 +6,7 @@ I aim to make a simple yet effective design for this website
 the JavaScript Interaction I implement is pretty simple and straightforward . 
 
 1) When user click the Campaign Form it will redirect the user to the form ( they can scroll but I want to make it fancy like that )
-2) When user fill out the form , they press submit and their data will be saved into the console ( dev tools ) 
+2) When user fill out the form , they press submit and a message will popup "form is submitted " + their data will be saved into the console ( dev tools ) 
 3) If they press submit when they haven't fill out the form , a message will popup saying they need to fill out the form first before submitting ( if else statement )
 
 I use a lot of reference in making this simple website ( most of it are from slides, youtube and w3school ) 
